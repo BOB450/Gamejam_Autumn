@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Combat : MonoBehaviour
 {
-    private Animator anim;
+    //private Animator anim;
     public float attackTime;
     public float startTimeAttack;
 
@@ -14,7 +14,7 @@ public class Combat : MonoBehaviour
 
     private void Start()
     {
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -23,9 +23,9 @@ public class Combat : MonoBehaviour
         {
             if( Input.GetButton("Fire1"))
             {
-                anim.SetBool("Is_attacking", true);
+                //anim.SetBool("Is_attacking", true);
                 Collider2D[] damage = Physics2D.OverlapCircleAll( attackLocation.position, attackRange, enemies );
-                Debug.Log("Attacking");
+                Debug.Log("Hello: ");
                 for (int i = 0; i < damage.Length; i++)
                 {
                     Destroy( damage[i].gameObject );
@@ -35,7 +35,7 @@ public class Combat : MonoBehaviour
         }   else
         {
             attackTime -= Time.deltaTime;
-            anim.SetBool("Is_attacking", false);
+            //anim.SetBool("Is_attacking", false);
         }
     }
 
