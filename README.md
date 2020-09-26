@@ -3,7 +3,7 @@
 ---
 
 Rowan idea-
-Genre - dialog mystry
+Genre - dialog mystry story driven
 veiw- top down rpg like view
 
     The player is the antagonist and and the protagonist is a bot that attemtps to work though the mystry and solve it as the antagonist you attemt to misslead and decive the
