@@ -26,3 +26,5 @@ View- Top Down
     seeing the city buned, but at the loss of his home, burning down with his parrents still inside.
 
 ---
+
+Asset Links - https://www.kenney.nl/assets/ui-pack-rpg-expansion - https://www.kenney.nl/assets/rpg-urban-pack - https://opengameart.org/content/rpg-pack-base-set - https://www.kenney.nl/assets/game-icons - https://www.kenney.nl/assets/roguelike-indoors - https://www.kenney.nl/assets/roguelike-rpg-pack - https://www.kenney.nl/assets/rpg-audio - https://www.kenney.nl/assets/interface-sounds
