@@ -9,6 +9,9 @@ public class playerDetection : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D colider) {
         if (colider.gameObject.tag == "player") {
             SceneManager.LoadScene(sceneToLoad);
+            //hgjkgfkhgdfkhgdfhgdf
         }
     } 
 }
+
+//hjfjgf
