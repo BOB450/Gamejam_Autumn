@@ -27,4 +27,12 @@ View- Top Down
 
 ---
 
-Asset Links - https://www.kenney.nl/assets/ui-pack-rpg-expansion - https://www.kenney.nl/assets/rpg-urban-pack - https://opengameart.org/content/rpg-pack-base-set - https://www.kenney.nl/assets/game-icons - https://www.kenney.nl/assets/roguelike-indoors - https://www.kenney.nl/assets/roguelike-rpg-pack - https://www.kenney.nl/assets/rpg-audio - https://www.kenney.nl/assets/interface-sounds
+Asset Links - https://www.kenney.nl/assets/ui-pack-rpg-expansion
+
+- https://www.kenney.nl/assets/rpg-urban-pack
+- https://opengameart.org/content/rpg-pack-base-set
+- https://www.kenney.nl/assets/game-icons
+- https://www.kenney.nl/assets/roguelike-indoors
+- https://www.kenney.nl/assets/roguelike-rpg-pack
+- https://www.kenney.nl/assets/rpg-audio
+- https://www.kenney.nl/assets/interface-sounds
