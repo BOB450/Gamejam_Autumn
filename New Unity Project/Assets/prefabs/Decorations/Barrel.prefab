@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7341382240139574201}
   - component: {fileID: 1247422624585688237}
+  - component: {fileID: -6004313118154060216}
   m_Layer: 0
   m_Name: Barrel
   m_TagString: Untagged
@@ -82,3 +83,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &-6004313118154060216
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9098687104679892020}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.203125, y: 0.21875}
+      - {x: -0.25, y: 0.140625}
+      - {x: -0.25, y: -0.40625}
+      - {x: -0.15625, y: -0.5}
+      - {x: 0.15625, y: -0.5}
+      - {x: 0.25, y: -0.390625}
+      - {x: 0.25, y: 0.171875}
+      - {x: 0.15625, y: 0.21875}
