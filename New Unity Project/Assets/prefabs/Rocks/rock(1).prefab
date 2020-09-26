@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9046261077780246866}
   - component: {fileID: 4892106454375990565}
+  - component: {fileID: 4581138698050384110}
   m_Layer: 0
   m_Name: rock(1)
   m_TagString: Untagged
@@ -82,3 +83,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &4581138698050384110
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8659221766755098663}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.68, y: 0.54}
+    newSize: {x: 0.68, y: 0.54}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.22, y: -0.08}
+      - {x: 0.11, y: 0.25}
+      - {x: 0.099999994, y: 0.26999998}
+      - {x: 0.03, y: 0.26999998}
+      - {x: -0.12, y: 0.19999999}
+      - {x: -0.19999999, y: -0.04}
+      - {x: -0.32999998, y: -0.089999996}
+      - {x: -0.34, y: -0.14999999}
+      - {x: -0.34, y: -0.26999998}
+      - {x: 0.34, y: -0.26999998}
+      - {x: 0.34, y: -0.19}
+      - {x: 0.29, y: -0.11}
