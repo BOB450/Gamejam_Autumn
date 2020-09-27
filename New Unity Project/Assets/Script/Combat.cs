@@ -8,13 +8,15 @@ public class Combat : MonoBehaviour
     public float attackTime;
     public float startTimeAttack;
 
-    public Transform attackLocation;
+    public Transform player;
+    Vector2 arrowstart;
     public float attackRange;
     public LayerMask enemies;
 
     private void Start()
     {
         //anim = GetComponent<Animator>();
+        arrowstart = new Vector2(player.position.x,player.position.y);
     }
 
     void Update()
@@ -24,8 +26,8 @@ public class Combat : MonoBehaviour
             if( Input.GetButton("Fire1"))
             {
                 //anim.SetBool("Is_attacking", true);
-                Collider2D[] damage = Physics2D.OverlapCircleAll( attackLocation.position, attackRange, enemies );
-                Debug.Log("Hello: ");
+                Collider2D[] damage = Physics2D.OverlapCircleAll( arrowstart = new Vector2(player.position.x,player.position.y), attackRange, enemies );
+                Debug.Log("sword attack ");
                 for (int i = 0; i < damage.Length; i++)
                 {
                     Destroy( damage[i].gameObject );
@@ -42,6 +44,6 @@ public class Combat : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackLocation.position, attackRange);
+        Gizmos.DrawWireSphere(arrowstart, attackRange);
     }
 }
