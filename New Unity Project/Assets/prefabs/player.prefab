@@ -182,9 +182,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrow: {fileID: 6236871273163182866, guid: 5035e062a5a5c384ba239091a08f6518, type: 3}
-  attackTime: 1
-  startTimeAttack: 0.1
+  attackTime: 1.5
+  startTimeAttack: 1.5
   playerpos: {fileID: 7258445908035273658}
+  speed: 1
+  target: {fileID: 0}
 --- !u!114 &3014133871800652627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,7 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086c9aadcce627c4288b4c29ab772a0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 1
+  attackTime: 20
   startTimeAttack: 0.1
   player: {fileID: 7258445908035273658}
   attackRange: 1
