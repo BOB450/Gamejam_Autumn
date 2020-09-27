@@ -199,8 +199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086c9aadcce627c4288b4c29ab772a0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 20
-  startTimeAttack: 0.1
+  attackTime: 4
+  startTimeAttack: 2
   player: {fileID: 7258445908035273658}
   attackRange: 1
   enemies:
