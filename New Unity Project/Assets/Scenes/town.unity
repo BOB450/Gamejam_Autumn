@@ -12395,10 +12395,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   player: {fileID: 854216659}
 =======
   player: {fileID: 491423363}
 >>>>>>> parent of 747fc08... sword finished bow attack needs more work
+=======
+  player: {fileID: 5579806906589411042}
+>>>>>>> parent of 854f1f4... -
 =======
   player: {fileID: 5579806906589411042}
 >>>>>>> parent of 854f1f4... -
@@ -41377,7 +41381,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 530
+=======
+  m_RootOrder: 528
+>>>>>>> parent of 854f1f4... -
 =======
   m_RootOrder: 528
 >>>>>>> parent of 854f1f4... -
@@ -43266,7 +43274,10 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 747f9a38425448f438a03a781df198c5, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 854f1f4... -
 --- !u!4 &5579806906589411042 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7258445908035273658, guid: 1fc8472d2b9032c4f8a0d931f1acf7c1, type: 3}
